@@ -13,9 +13,4 @@ def spiralize(size, n=1):
             r = 0
     return x
 
-def main():
-    test = spiralize(131,19)
-    print (test)
-    
-if __name__== "__main__":
-    main()
+print(spiralize(501,15))
